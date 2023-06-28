@@ -84,7 +84,6 @@ const Scene = () => {
     <Canvas camera={{ fov: 75, near: 0.1, far: 1000, position: [0, 0, 5] }}>
       <Image />
       <Cube position={[-1.2, 0, 0]}/>
-      <Cube position={[0, 0, 0]}/>
       <Cube />
     </Canvas>
   );
